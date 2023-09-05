@@ -1,0 +1,285 @@
+
+#home{
+    background-color:#fff;
+    position: relative;  
+    width: 100%;  
+    height: 100vh;
+
+    
+}
+/*
+.container5{
+   
+    width: 100%;  
+    height: 100vh;
+    position: relative;  
+}*/
+/*
+.col-lg-6{
+    margin: 0%;
+}*/
+.flex-container{
+    position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.mainimages{
+    align-content: center;
+    width: 700px;
+    height: 100vh;
+    margin-left: 10%;
+   /* position: absolute;*/
+    padding-right: 85px;
+    
+}
+
+.homeparagh{  
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3em; 
+   
+}
+.secondfamily{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+  
+
+
+#clicks{
+margin: 2.5%;
+}
+
+#ourworks{
+    margin: 60px;
+}
+.headblk{
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family:  'Playball', cursive;
+    color: #666;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.inrow{
+    padding: 20px;
+}
+.img-work{
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    justify-content: center;
+}
+.containers{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.aboutus1{
+    text-align: center;
+}
+.container1{
+
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+   
+}
+.about-top{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    /* background: rgba(238, 47, 52, 0.5); */
+    padding: 80px 35px;
+    border: 1px dashed #ee2f34;
+    top: -78px;
+    background-image: url(images/back.png);
+}
+.about-txt p{
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+}
+.bottom{
+    justify-content: center;
+    padding: 10px;
+}
+.img-icon{
+    width:200px;
+    justify-content: center;
+    align-items: 50%;
+}
+
+
+
+
+#testinomal{
+    margin: 50px;
+}
+#testinomal .row{
+
+    margin-top: 30px;
+}
+
+.profile{
+    padding: 80px;
+    position: relative;
+    background-color: #efefef;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.profile img{
+    top: -60px;
+    position: absolute;
+    left:calc(50% - 60px);
+    border: 10px solid white;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: '\201C';
+    font-family: sans-serif;
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after{
+    content: '\201D';
+    font-family: sans-serif;
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container{
+    display: flex;
+}
+ 
+.card{
+    justify-content: center;
+    align-items:center ;
+    margin: 25px;
+}
+.card-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-img-top{
+
+    width: 250px;
+    height: 277px;
+    padding: 20px;
+    justify-content: center;
+    align-items:center ;
+}
+#Contact{
+    background-color: #f6efef;
+    padding-top: 2.5%;
+}
+.footer-margin{
+    margin-left: 5%;
+}
+.img-icons{
+    width:200px;
+    justify-content: center;
+    align-items: 50%;
+}
+.footer-margin p{
+line-height: 22px;
+color: #333;
+width: 90%;
+font-weight: 600;
+text-align: justify;
+font-size: 17px;
+font-family: 'Josefin Sans', sans-
+}
+.footer-two h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer-three h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer-four h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 25px;
+    color: #000;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+
+  
+}
+.img-icons1{
+
+    width:30px;
+    margin: 10px;
+
+}
+.fa{
+    margin-right: 10px;
+}
